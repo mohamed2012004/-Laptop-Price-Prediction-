@@ -27,9 +27,6 @@ Laptop-Price-Prediction/
 ├── .gitignore # Git ignore file
 └── README.md # Project overview and instructions
 
-Copy
-Edit
-
 ## 📊 Features
 - **EDA:** Performed in Jupyter Notebook to understand trends and patterns in laptop pricing
 - **Data Preprocessing:** Label Encoding and Scaling of features
