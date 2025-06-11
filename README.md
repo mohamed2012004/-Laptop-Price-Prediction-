@@ -5,28 +5,26 @@ A machine learning project that predicts laptop prices based on specifications s
 ---
 
 ## 📁 Project Structure
-Laptop-Price-Prediction/
-│
-├── artifacts/ # Contains saved models and tools
-│ ├── label_encoder.pkl
-│ ├── scaler.pkl
-│ ├── model.pkl
-│ └── metrics.json
-│
-├── model_development/ # Model building and preprocessing
-│ └── model.py
-│
-├── model_evaluation/ # Model evaluation logic
-│ └── evaluate.py
-│
-├── notebooks/ # EDA and data exploration
-│ └── Laptop_Price_Analysis.ipynb
-│
-├── app.py # Streamlit web app for prediction
-├── .gitignore # Git ignore file
-└── README.md # Project overview and instructions
+artifacts/ — Contains saved models and tools
+1.1 label_encoder.pkl
+1.2 scaler.pkl
+1.3 model.pkl
+1.4 metrics.json
 
+model_development/ — Model building and preprocessing
+2.1 model.py
 
+model_evaluation/ — Model evaluation logic
+3.1 evaluate.py
+
+notebooks/ — EDA and data exploration
+4.1 Laptop_Price_Analysis.ipynb
+
+app.py — Streamlit web app for prediction
+
+.gitignore — Git ignore file
+
+README.md — Project overview and instructions
 
 ---
 
