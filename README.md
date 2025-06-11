@@ -5,6 +5,10 @@ A machine learning project that predicts laptop prices based on specifications s
 ---
 
 ## 📁 Project Structure
+
+notebooks/ — EDA and data exploration
+ Laptop_Price_Analysis.ipynb
+
 artifacts/ — Contains saved models and tools
 1.1 label_encoder.pkl
 1.2 scaler.pkl
@@ -17,8 +21,6 @@ model_development/ — Model building and preprocessing
 model_evaluation/ — Model evaluation logic
 3.1 evaluate.py
 
-notebooks/ — EDA and data exploration
-4.1 Laptop_Price_Analysis.ipynb
 
 app.py — Streamlit web app for prediction
 
