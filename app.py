@@ -1,16 +1,17 @@
+
 import streamlit as st
 import numpy as np
 import pickle
 import pandas as pd
 
 # Load model, scaler, and label encoder
-with open('model_outputs/finalized_model.pkl', 'rb') as f:
+with open('artifacts/finalized_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('model_outputs/scaler.pkl', 'rb') as f:
+with open('artifacts/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with open('model_outputs/label_encoder.pkl', 'rb') as f:
+with open('artifacts/label_encoder.pkl', 'rb') as f:
     label_encoder = pickle.load(f)
 
 st.title("💻 Laptop Price Prediction App")
