@@ -37,5 +37,7 @@ Laptop-Price-Prediction/
 
 ### 🔗 Try the App
 
+### 🔗 Try the App
+
 You can try the deployed app live here:  
-👉 [Click to Open Streamlit App]([https://laptop-price-predictor-mohammad.streamlit.app](https://mohamed2012004--laptop-price-prediction--app-y62fya.streamlit.app/))
+👉 [Click to Open Streamlit App](https://mohamed2012004--laptop-price-prediction--app-y62fya.streamlit.app/)
