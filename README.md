@@ -6,7 +6,7 @@ A machine learning project that predicts laptop prices based on specifications s
 
 ## 📁 Project Structure
 
-
+Laptop-Price-Prediction/
 │
 ├── artifacts/ # Contains saved models and tools
 │ ├── label_encoder.pkl
@@ -14,18 +14,21 @@ A machine learning project that predicts laptop prices based on specifications s
 │ ├── model.pkl
 │ └── metrics.json
 │
-├── model_development/
-│ └── model.py # Code for preprocessing and training the model
+├── model_development/ # Model building and preprocessing
+│ └── model.py
 │
-├── model_evaluation/
-│ └── evaluate.py # Code for evaluating the model
+├── model_evaluation/ # Model evaluation logic
+│ └── evaluate.py
 │
-├── notebooks/
-│ └── Laptop_Price_Analysis.ipynb # Exploratory Data Analysis notebook
+├── notebooks/ # EDA and data exploration
+│ └── Laptop_Price_Analysis.ipynb
 │
-├── app.py # Streamlit web application for deployment
-├── .gitignore # Files and folders to ignore in version control
-└── README.md # Project overview and documentation
+├── app.py # Streamlit web app for prediction
+├── .gitignore # Git ignore file
+└── README.md # Project overview and instructions
+
+Copy
+Edit
 
 ## 📊 Features
 - **EDA:** Performed in Jupyter Notebook to understand trends and patterns in laptop pricing
