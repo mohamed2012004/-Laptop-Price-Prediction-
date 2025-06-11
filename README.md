@@ -4,7 +4,8 @@ A machine learning project that predicts laptop prices based on specifications s
 
 ---
 
-## 📁 Project Structure
+
+
 ```
 Laptop-Price-Prediction/
 │
@@ -26,6 +27,8 @@ Laptop-Price-Prediction/
 ├── app.py # Streamlit web app for prediction
 ├── .gitignore # Git ignore file
 └── README.md # Project overview and instructions```
+
+## 📁 Project Structure
 
 
 
