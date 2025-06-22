@@ -4,7 +4,9 @@ A complete machine-learning workflow to predict laptop prices based on technical
 
 ## Project Overview
 
-This project aims to build a predictive model capable of estimating laptop prices from features such as brand, processor, RAM, storage, screen size, GPU, and weight. It includes:
+This project aims to build a predictive model capable of estimating laptop prices from features such as brand,Processor Speed (GHz)
+
+,RAM Size (GB),Storage Capacity (GB). It includes:
 
 - Exploratory Data Analysis (EDA)
 - Feature engineering and cleaning
@@ -24,8 +26,8 @@ You can see the app here:
 
 ```plaintext
 data/                  – original and cleaned datasets  
+src/                   – core code for data prep and modeling 
 notebooks/             – EDA and training exploration  
-src/                   – core code for data prep and modeling  
 models/                – serialized model pipelines  
 app/                   – web front-end for user interaction  
 README.md              – project overview  
