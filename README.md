@@ -8,8 +8,8 @@ This project aims to build a predictive model capable of estimating laptop price
 
 - Exploratory Data Analysis (EDA)
 - Feature engineering and cleaning
-- Model training (Linear Regression, Random Forest, etc.)
-- Model evaluation using RMSE, MAE, R²
+- Model training
+-  Model evaluation using R²
 - A lightweight web app for live price prediction
 
 ---
@@ -22,6 +22,10 @@ notebooks/             – EDA and training exploration
 src/                   – core code for data prep and modeling  
 models/                – serialized model pipelines  
 app/                   – web front-end for user interaction  
-tests/                 – unit tests  
 README.md              – project overview  
-requirements.txt       – Python dependencies  
+requirements.txt       – Python dependencies
+
+## 🌐 Live Demo
+
+You can see the app here:
+👉 [Laptop Price Predictor Web App](https://mohamed2012004--laptop-price-prediction--app-y62fya.streamlit.app/)
