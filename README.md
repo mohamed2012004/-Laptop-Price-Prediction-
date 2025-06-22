@@ -24,11 +24,9 @@ models/                – serialized model pipelines
 app/                   – web front-end for user interaction  
 README.md              – project overview  
 requirements.txt       – Python dependencies
-'''
 
+---
 
-
-## 🌐 Live Demo
 
 You can see the app here:
 👉 [Laptop Price Predictor Web App](https://mohamed2012004--laptop-price-prediction--app-y62fya.streamlit.app/)
